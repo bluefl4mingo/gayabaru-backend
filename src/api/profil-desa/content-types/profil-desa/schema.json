@@ -1,0 +1,64 @@
+{
+  "kind": "singleType",
+  "collectionName": "profil_desas",
+  "info": {
+    "singularName": "profil-desa",
+    "pluralName": "profil-desas",
+    "displayName": "Profil Desa"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "visi": {
+      "type": "blocks"
+    },
+    "misi": {
+      "type": "blocks"
+    },
+    "sejarahDesa": {
+      "type": "blocks"
+    },
+    "deskripsiDesa": {
+      "type": "blocks"
+    },
+    "batasUtara": {
+      "type": "text"
+    },
+    "batasSelatan": {
+      "type": "text"
+    },
+    "batasTimur": {
+      "type": "text"
+    },
+    "batasBarat": {
+      "type": "text"
+    },
+    "luasDesa": {
+      "type": "decimal",
+      "min": 0
+    },
+    "baganSOTK": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "baganBPD": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

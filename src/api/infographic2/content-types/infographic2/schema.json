@@ -1,0 +1,99 @@
+{
+  "kind": "singleType",
+  "collectionName": "infographic2s",
+  "info": {
+    "singularName": "infographic2",
+    "pluralName": "infographic2s",
+    "displayName": "Infographic2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "uneducated": {
+      "type": "integer",
+      "min": 0
+    },
+    "SD": {
+      "type": "integer",
+      "min": 0
+    },
+    "SMP": {
+      "type": "integer",
+      "min": 0
+    },
+    "SMA": {
+      "type": "integer",
+      "min": 0
+    },
+    "diploma": {
+      "type": "integer",
+      "min": 0
+    },
+    "S1": {
+      "type": "integer",
+      "min": 0
+    },
+    "S2": {
+      "type": "integer",
+      "min": 0
+    },
+    "S3": {
+      "type": "integer",
+      "min": 0
+    },
+    "otherEducation": {
+      "type": "integer",
+      "min": 0
+    },
+    "petaniPemilikLahan": {
+      "type": "integer",
+      "min": 0
+    },
+    "petaniPenyewa": {
+      "type": "integer",
+      "min": 0
+    },
+    "buruhTani": {
+      "type": "integer",
+      "min": 0
+    },
+    "nelayanPemilikKapal": {
+      "type": "integer",
+      "min": 0
+    },
+    "nelayanPenyewaPerahu": {
+      "type": "integer",
+      "min": 0
+    },
+    "buruhNelayan": {
+      "type": "integer",
+      "min": 0
+    },
+    "guruNonPNS": {
+      "type": "integer",
+      "min": 0
+    },
+    "pedagang": {
+      "type": "integer",
+      "min": 0
+    },
+    "PNS": {
+      "type": "integer",
+      "min": 0
+    },
+    "TNI": {
+      "type": "integer",
+      "min": 0
+    },
+    "perangkatDesa": {
+      "type": "integer",
+      "min": 0
+    },
+    "otherJob": {
+      "type": "integer",
+      "min": 0
+    }
+  }
+}
