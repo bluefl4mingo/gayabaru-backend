@@ -855,6 +855,12 @@ export interface ApiProfilDesaProfilDesa extends Struct.SingleTypeSchema {
         },
         number
       >;
+    mapAdministrasi: Schema.Attribute.Media<'images'>;
+    mapAirTanah: Schema.Attribute.Media<'images'>;
+    mapFasilitas: Schema.Attribute.Media<'images'>;
+    mapGeomorfologi: Schema.Attribute.Media<'images'>;
+    mapPenduduk: Schema.Attribute.Media<'images'>;
+    mapWisata: Schema.Attribute.Media<'images'>;
     misi: Schema.Attribute.Blocks;
     publishedAt: Schema.Attribute.DateTime;
     sejarahDesa: Schema.Attribute.Blocks;
